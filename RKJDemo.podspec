@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "RKJDemo"
   s.version      = "0.0.1"
-  s.summary      = "RKJDemojianjie.”
+  s.summary      = "A short description of RKJDemo."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,8 +25,6 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-
-RKJDemojianjie.RKJDemojianjie.RKJDemojianjie.
                    DESC
 
   s.homepage     = "https://github.com/RanXiaoBen/RKJDemo"
@@ -41,7 +39,7 @@ RKJDemojianjie.RKJDemojianjie.RKJDemojianjie.
   #
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = { :://github.com/RanXiaoBen/RKJDemo.gittype => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -69,7 +67,7 @@ RKJDemojianjie.RKJDemojianjie.RKJDemojianjie.
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-    s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -81,8 +79,7 @@ RKJDemojianjie.RKJDemojianjie.RKJDemojianjie.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/RanXiaoBen/RKJDemo.git", :tag => “0.0.1” }
-
+  s.source       = { :git => "https://github.com/RanXiaoBen/RKJDemo.git", :tag => "0.0.1" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
